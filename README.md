@@ -14,7 +14,7 @@ Prerequisits:
     sudo apt-get install wget build-essential zlib1g-dev
  
 
-Now you can execute the script for the country of you choice.
+Now you can execute the script for a country of your choice.
 
 It will:
  1. Download raw OSM and Geonames files
@@ -39,3 +39,7 @@ Example usage:
     ./germany.sh
 
 The result will be a "mmtn-germany" folder with the generated files.
+
+Todo:
+ - more countries
+ - resulting files should be one "merged" files
