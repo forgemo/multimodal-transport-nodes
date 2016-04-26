@@ -1,6 +1,10 @@
 # multimodal-transport-nodes
 Generates a list of locations that are likely to be start/stop nodes in a multimodal transport scheme
 
+Data is based on [OpenStreetMaps](OpenStreetMaps.org) and [Geonames](Geonames.org).
+
+Please check their websites for usage and licensing rules.
+
 Just execute the script for the country of you choice.
 
 It will:
