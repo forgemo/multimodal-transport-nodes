@@ -5,10 +5,10 @@ rm -rf mmtn_germany
 mkdir mmtn_germany
 cd mmtn_germany
 
-# Download latest osm tools
-wget http://m.m.i24.cc/osmconvert64 -O osmconvert
-wget http://m.m.i24.cc/osmfilter32 -O osmfilter
-
+# Download and build latest osm tools
+wget -O - http://m.m.i24.cc/osmfilter.c | cc -x c - -O3 -o osmfilter
+wget -O - http://m.m.i24.cc/osmconvert.c | cc -x c - -lz -O3 -o osmconvert
+ 
 # Make osm tools executable
 chmod +x osmconvert
 chmod +x osmfilter
