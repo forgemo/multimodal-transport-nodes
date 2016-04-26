@@ -42,4 +42,4 @@ The result will be a "mmtn-germany" folder with the generated files.
 
 Todo:
  - more countries
- - resulting files should be one "merged" files
+ - resulting files should become one "merged" file
